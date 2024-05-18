@@ -1,0 +1,120 @@
+/* Global styles */
+body {
+    color: #FEE9E1; /* Light gray text color */
+    font-family: 'Arial', sans-serif; /* A clean and modern font */
+    background-image: url('https://images.unsplash.com/photo-1502239608882-93b729c6af43?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'); /* Update with the file path of your downloaded image */
+    background-size: cover; /* Cover the entire viewport */
+    background-position: center; /* Center the background image */
+    margin: 0;
+    padding: 0;
+}
+
+/* Header styles */
+header {
+    background-color:#132E32 ; /* color for the header*/
+    padding: 20px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 36px;
+    font-weight: bold;
+    letter-spacing: 2px; /* Add some spacing between letters */
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #FEE9E1; /* Light gray navigation links */
+    text-decoration: none;
+    font-size: 18px;
+    text-transform: uppercase; /* Uppercase navigation links */
+}
+
+/* Hero section styles */
+.hero {
+    height: 500px; /* Adjust as needed */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 50px;
+}
+
+.hero h2 {
+    font-size: 48px;
+    font-weight: bold;
+    letter-spacing: 2px; /* Add some spacing between letters */
+    color: #FEE9E1; /* Light gray heading color */
+}
+
+.hero p {
+    font-size: 24px;
+    margin-top: 20px;
+    color: #F8F7FF; /* Light gray paragraph color */
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #0B1304; /* PROJECT SECTION*/
+    color: #fff; /* White button text color */
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    font-size: 18px;
+    text-transform: uppercase; /* Uppercase button text */
+}
+
+.btn:hover {
+    background-color: #9999C3; /* PROJECT SECTION */
+}
+
+.about {
+    margin-top: 50px;
+}
+
+.about h2 {
+    font-size: 27px;
+    margin-bottom: 10px;
+    color: #DECBB7; /* Light gray heading color */
+}
+
+.about p {
+    font-size: 18px;
+    color: #FEE9E1; /* Light gray paragraph color */
+}
+
+/* Project section styles */
+#projects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.project-item {
+    margin: 15px;
+    max-width: 300px;
+    text-align: center;
+}
+
+.project-image {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.project-name {
+    font-size: 20px;
+    color: #EE1717 ; /* Bright blue project name */
+}
